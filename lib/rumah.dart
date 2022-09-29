@@ -7,7 +7,7 @@ class Rumah {
   double _panjangRumah = 0;
 
 // properti setter
-  void set panjangRumah(double nilai) {
+  set panjangRumah(double nilai) {
     if (nilai < 0) {
       nilai *= -1;
     }
