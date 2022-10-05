@@ -4,6 +4,7 @@ void main(List<String> arguments) {
     ..tinggi = 20
     ..warna = 'putih'
     ..create();
+  print(appBar);
 }
 
 class AppBar {
